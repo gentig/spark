@@ -20,6 +20,8 @@ Assuming that spark dir is: spark-2.3.0-bin-hadoop2.7
 Run:
     ./spark-2.3.0-bin-hadoop2.7/sbin/start-slave.sh spark:master-URL
 
+Run App
+-------
 Now we are ready to install our app and submit it. To do that
 clone the project and build it with maven. Then get the .jar file
 created and put it somewhere we can submit it with spark-submit.
@@ -30,6 +32,8 @@ To run the project jar we do:
 There is a lot of console output when running apa with in spark so to see all the output we pipe it 
 to less command.
 
+Output
+------
 In the linux environment we should have a file named in.txt in the dir /tmp/in.txt
 In the linux environment after running the app we should have a dir /tmp/output created. in there
 we have the spark results. open the files to see the result.
